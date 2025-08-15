@@ -1,15 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: 'export', // enables static HTML export
   images: {
-    unoptimized: true,
+    unoptimized: true, // important for GitHub Pages
   },
-  output: 'export' // for static export
-}
+  basePath: '/jainpandithyderabad', // repo name
+  assetPrefix: '/jainpandithyderabad/',
+};
 
-export default nextConfig;
+module.exports = nextConfig;

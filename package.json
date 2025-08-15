@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out -b gh-pages"
+    "deploy": "next build && gh-pages -d out -b gh-pages"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
