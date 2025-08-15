@@ -4,8 +4,7 @@
   "homepage": "https://arpit-jain0.github.io/jainpandithyderabad",
 "scripts": {
 "dev": "next dev",
-    "build": "NODE_ENV=production next build",
-    "postbuild": "touch out/.nojekyll",
+   "build": "next build && echo '' > out/.nojekyll",
     "deploy": "npm run build && gh-pages -d out -b gh-pages"
 },
   "dependencies": {
