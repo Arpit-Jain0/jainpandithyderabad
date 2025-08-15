@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Enables static export for GitHub Pages
+  output: 'export',
+  basePath: '/jainpandithyderabad',
+  assetPrefix: '/jainpandithyderabad/',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -8,7 +10,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // Required for static export without Next.js image optimization server
+    unoptimized: true,
   },
 };
 
