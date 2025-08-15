@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/jainpandithyderabad',
-  assetPrefix: '/jainpandithyderabad/',
-  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -13,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-};
+  output: 'export', // for static export
+  basePath: '/jainpandithyderabad',
+  assetPrefix: '/jainpandithyderabad/',
+}
 
 export default nextConfig;
