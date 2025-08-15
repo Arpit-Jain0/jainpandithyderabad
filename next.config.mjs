@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // enables static HTML export
+  output: 'export',
   images: {
-    unoptimized: true, // important for GitHub Pages
+    unoptimized: true,
   },
-  basePath: '/jainpandithyderabad', // repo name
+  basePath: '/jainpandithyderabad',
   assetPrefix: '/jainpandithyderabad/',
 };
 
-module.exports = nextConfig;
+export default nextConfig; // ✅ Correct for .mjs
