@@ -19,7 +19,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "पंडित जी - जैन धर्म सेवाएं | Hyderabad Jain Pandit Services",
   description:
-    "हैदराबाद में अनुभवी जैन पंडित जी की पूजा और विधि सेवाएं | Experienced Jain Pandit in Hyderabad for Pooja and Vidhi ceremonies",
+    "हैदराबाद में अनुभवी जैन पंडित जी की पूजा और विधि सेवाएं | Experienced Jain Pandit in Hyderabad for Pooja and Vidhan ceremonies",
   generator: "v0.app",
 }
 
