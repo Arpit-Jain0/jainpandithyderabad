@@ -4,9 +4,8 @@
   "homepage": "https://arpit-jain0.github.io/jainpandithyderabad",
 "scripts": {
   "dev": "next dev",
-  "build": "next build",
-  "export": "next build",
-  "deploy": "next build && gh-pages -d out -b gh-pages"
+  "build": "next build && touch out/.nojekyll",
+  "deploy": "npm run build && gh-pages -d out -b gh-pages"
 },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

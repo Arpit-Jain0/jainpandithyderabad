@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
@@ -8,4 +9,4 @@ const nextConfig = {
   assetPrefix: '/jainpandithyderabad/',
 };
 
-export default nextConfig; // ✅ Correct for .mjs
+export default nextConfig;
