@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export', // for static export
+  basePath: '/jainpandithyderabad',
+  assetPrefix: '/jainpandithyderabad/',
 }
 
 export default nextConfig;
