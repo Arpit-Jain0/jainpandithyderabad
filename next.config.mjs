@@ -1,7 +1,8 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export',  // This enables static export
   images: {
-    unoptimized: true
+    unoptimized: true // Avoids Next.js image optimization server
   }
 };
 
